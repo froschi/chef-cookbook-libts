@@ -1,3 +1,5 @@
+include_recipe "tsconf"
+
 packages = Array.new
 
 case node[:lsb][:codename]
